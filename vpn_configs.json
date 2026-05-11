@@ -1,0 +1,41 @@
+{
+  "generator": "VPNGenerator",
+  "version": "1.0",
+  "generated_at": "2026-05-11T05:38:35Z",
+  "protocols": {
+    "ssh_websocket": [
+      {
+          "protocol": "ssh_websocket",
+          "server_address": "ov-germany2.09vpn.com",
+          "server_port": 80,
+          "ssh_port": 22,
+          "username": "u5600461071",
+          "password": "000000",
+          "websocket_path": "/",
+          "sni": "whatsapp.com",
+          "proxy_host": "ov-germany2.09vpn.com",
+          "proxy_port": 80
+      }
+    ],
+    "openvpn": [
+      {
+          "protocol": "openvpn",
+          "server_address": "ov-germany2.09vpn.com",
+          "server_port": 1194,
+          "openvpn_protocol": "udp",
+          "cipher": "AES-256-CBC",
+          "auth": "SHA512",
+          "remote_cert_tls": "server",
+          "comp_lzo": "no",
+          "keepalive": "10 120",
+          "resolv_retry": "infinite",
+          "nobind": true,
+          "persist_key": true,
+          "persist_tun": true,
+          "verb": 3,
+          "ca_cert": "MIID9DCCAtygAwIBAgIUEwUTqjTlDgQEVDRH2U80fHTgWmswDQYJKoZIhvcNAQEL\nBQAwdjETMBEGA1UEAwwKQ0EgT3BlblZwbjELMAkGA1UEBhMCSUQxEDAOBgNVBAcM\nB0pha2FydGExFDASBgNVBAgMC0tlYm9uIEplcnVrMQ4wDAYDVQQKDAVHSVZQTjEa\nMBgGA1UECwwRSU5ET05FU0lBIENPVU5UUlkwIBcNMjMwNjI2MDQwNTQ5WhgPMjA1\nMzA2MTgwNDA1NDlaMHYxEzARBgNVBAMMCkNBIE9wZW5WcG4xCzAJBgNVBAYTAklE\nMRAwDgYDVQQHDAdKYWthcnRhMRQwEgYDVQQIDAtLZWJvbiBKZXJ1azEOMAwGA1UE\nCgwFR0lWUE4xGjAYBgNVBAsMEUlORE9ORVNJQSBDT1VOVFJZMIIBIjANBgkqhkiG\n9w0BAQEFAAOCAQ8AMIIBCgKCAQEA4Hc5wLfc1lE9tud9nqV9tIXi39yko4SmCTy7\nvnitIZ5E7jStCae5L5K8fdLutab3sQ2VG8/9qypc5uKVV7mVBMsfooAz6Jco0jkY\n8Wl9BiBizNy0a78tCtl3OkIoSSoYb5TOwHRcRRXGDSiWAJ6EpJWUmD/BQIPbJH93\nufO4raIhiBtG0OyirW0OcW7n2Q4VOV7iaZzSJeydUW7PT1biQ4ZGqDJEaHLudLrA\nZ0A8Fdg9hFlv9dWt/FSQa5hmZd+ogJWDDsxsqc7EU7EVqW4Q4rXUXHJ6r4ETnKgf\n2/jzl2iLQ94JHWR5V5wO2d3osEix5auoVAotCnBTH9AF/OjFfwIDAQABo3gwdjAd\nBgNVHQ4EFgQUrOHnpk8NhFrZ9uq56XyahxNjrmcwHwYDVR0jBBgwFoAUrOHnpk8N\nhFrZ9uq56XyahxNjrmcwDwYDVR0TAQH/BAUwAwEB/zATBgNVHSUEDDAKBggrBgEF\nBQcDATAOBgNVHQ8BAf8EBAMCAaYwDQYJKoZIhvcNAQELBQADggEBALzgpdiWweYN\n3FgiVjIuEZiSyMnTkcJlgoCwaBrDNUFz/ZSbKin+u8rNMn6U7Wpu9kEhqgft5F7W\nE//mXzfBMTjuSwirp6sjEaZjybSAw5vCER7dq3GE2MOF53lu56lHeg6p2TMV2Ep5\nQQv2v4kwJV10q3h1kGTFawNy7cC0gBAfQADk5TkPqxUPsrHWd8CHqX3qj9Z4aSpV\n39FVQltJtF6aE35rczVU5ETnAjI6fGG/+bXmrhwfWk926/J+VZcqZqWS3ZgT3p5x\nvO6dNnG6EAoe0TSQV54QDMN1Eung42Oxa1QnOqVBSlhtvITYB8EubmrcwIovtME6\nsX4fPkXFnrg=",
+          "client_cert": "MIID9DCCAtygAwIBAgIUEwUTqjTlDgQEVDRH2U80fHTgWmswDQYJKoZIhvcNAQEL\nBQAwdjETMBEGA1UEAwwKQ0EgT3BlblZwbjELMAkGA1UEBhMCSUQxEDAOBgNVBAcM\nB0pha2FydGExFDASBgNVBAgMC0tlYm9uIEplcnVrMQ4wDAYDVQQKDAVHSVZQTjEa\nMBgGA1UECwwRSU5ET05FU0lBIENPVU5UUlkwIBcNMjMwNjI2MDQwNTQ5WhgPMjA1\nMzA2MTgwNDA1NDlaMHYxEzARBgNVBAMMCkNBIE9wZW5WcG4xCzAJBgNVBAYTAklE\nMRAwDgYDVQQHDAdKYWthcnRhMRQwEgYDVQQIDAtLZWJvbiBKZXJ1azEOMAwGA1UE\nCgwFR0lWUE4xGjAYBgNVBAsMEUlORE9ORVNJQSBDT1VOVFJZMIIBIjANBgkqhkiG\n9w0BAQEFAAOCAQ8AMIIBCgKCAQEA4Hc5wLfc1lE9tud9nqV9tIXi39yko4SmCTy7\nvnitIZ5E7jStCae5L5K8fdLutab3sQ2VG8/9qypc5uKVV7mVBMsfooAz6Jco0jkY\n8Wl9BiBizNy0a78tCtl3OkIoSSoYb5TOwHRcRRXGDSiWAJ6EpJWUmD/BQIPbJH93\nufO4raIhiBtG0OyirW0OcW7n2Q4VOV7iaZzSJeydUW7PT1biQ4ZGqDJEaHLudLrA\nZ0A8Fdg9hFlv9dWt/FSQa5hmZd+ogJWDDsxsqc7EU7EVqW4Q4rXUXHJ6r4ETnKgf\n2/jzl2iLQ94JHWR5V5wO2d3osEix5auoVAotCnBTH9AF/OjFfwIDAQABo3gwdjAd\nBgNVHQ4EFgQUrOHnpk8NhFrZ9uq56XyahxNjrmcwHwYDVR0jBBgwFoAUrOHnpk8N\nhFrZ9uq56XyahxNjrmcwDwYDVR0TAQH/BAUwAwEB/zATBgNVHSUEDDAKBggrBgEF\nBQcDATAOBgNVHQ8BAf8EBAMCAaYwDQYJKoZIhvcNAQELBQADggEBALzgpdiWweYN\n3FgiVjIuEZiSyMnTkcJlgoCwaBrDNUFz/ZSbKin+u8rNMn6U7Wpu9kEhqgft5F7W\nE//mXzfBMTjuSwirp6sjEaZjybSAw5vCER7dq3GE2MOF53lu56lHeg6p2TMV2Ep5\nQQv2v4kwJV10q3h1kGTFawNy7cC0gBAfQADk5TkPqxUPsrHWd8CHqX3qj9Z4aSpV\n39FVQltJtF6aE35rczVU5ETnAjI6fGG/+bXmrhwfWk926/J+VZcqZqWS3ZgT3p5x\nvO6dNnG6EAoe0TSQV54QDMN1Eung42Oxa1QnOqVBSlhtvITYB8EubmrcwIovtME6\nsX4fPkXFnrg="
+      }
+    ]
+  }
+}
